@@ -1,0 +1,26 @@
+{
+    "name": "fawzanm/chuck-norris-jokes",
+    "description": "This package helps you to create a random chuck norris joke",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohamed Fawzan",
+            "email": "fawzanm@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fawzanm\\ChuckNorrisJokes\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fawzanm\\ChuckNorrisJokes\\Tests\\": "tests/"
+        }
+    }
+}
